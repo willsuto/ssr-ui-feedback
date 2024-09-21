@@ -8,7 +8,7 @@ export default function Home({searchParams}) {
     <div className="flex items-center justify-center h-screen font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-12 items-center">
         <Link href='/?fb=correct'>Click this one.</Link>
-        <Link href='/?fb=incorrect'>Definitely don't click this one.</Link>
+        <Link href='/?fb=incorrect'>Definitely don&apos;t click this one.</Link>
         {feedback !== undefined && <FeedbackModal type={feedback}/>}
       </main>
     </div>
